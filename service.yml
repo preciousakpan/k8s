@@ -11,4 +11,6 @@ spec:
   type: NodePort
 
 # kubectl apply -f service.yml
+# kubectl get services
+# minikube ip
 # minikube service hello-world-service
