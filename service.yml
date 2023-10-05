@@ -13,4 +13,6 @@ spec:
 # kubectl apply -f service.yml
 # kubectl get services
 # minikube ip
-# minikube service hello-world-service
+# minikube service gafar-service
+#kubectl port-forward service/gafar-service 7080:8000
+#Your application is now available at http://localhost:7080/
